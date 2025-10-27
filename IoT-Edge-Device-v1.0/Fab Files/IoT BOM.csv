@@ -1,0 +1,32 @@
+Comment,Designator,Footprint,JLCPCB Part #
+22uF Unpolarized capacitor,"C1,C5,C18,C19,C20",Capacitor_SMD:C_0603_1608Metric,C59461
+0.1uF Unpolarized capacitor,"C2,C8,C9,C11,C13,C15,C21,C22,C24,C26",Capacitor_SMD:C_0402_1005Metric,C14663
+1uF Unpolarized capacitor,"C3,C25",Capacitor_SMD:C_0402_1005Metric,C15849
+10uF Unpolarized capacitor,"C4,C16,C17",Capacitor_SMD:C_0402_1005Metric,C19702
+10pF Unpolarized capacitor,"C6,C7",Capacitor_SMD:C_0402_1005Metric,C1634
+0.33uF Unpolarized capacitor,"C10,C12,C14",Capacitor_SMD:C_0402_1005Metric,C3039642
+22uF/16V Unpolarized capacitor,C23,Capacitor_SMD:C_0603_1608Metric,C5116073
+Red Power Light emitting diode (LED),D1,LED_SMD:LED_0603_1608Metric,C965799
+Blue IP5306 Key Status LED,D12,LED_SMD:LED_0603_1608Metric,C965807
+Green Status LED,D13,LED_SMD:LED_0603_1608Metric,C22371297
+"SP0503BAHT TVS Diode Array, 5.5V Standoff, 3 Channels, SOT-143 package",D2,Package_TO_SOT_SMD:SOT-143,C7074
+DFLS130L-7,"D4,D5,D6,D7",DFLS130L-7:DIO_DFLS130L-7,C110493
+"25%, 50%, 75% Light emitting diode (Red)","D8, D9, D10",LED_SMD:LED_0603_1608Metric,C965799
+100% Light emitting diode (Green),D11,LED_SMD:LED_0603_1608Metric,C22371297
+"1000V 1A General Purpose Rectifier Diode, DO-41",D14,Diode_SMD:D_0603_1608Metric,C727081
+Relay Green Status LED,D15,LED_SMD:LED_0603_1608Metric,C22371297
+Relay Red Power LED,D16,LED_SMD:LED_0603_1608Metric,C965799
+USB Micro Type B connector,J1,Connector_USB:USB_Micro-B_Wuerth_629105150521,C2894326
+Micro SD Card Socket,J15,Connector_Card:microSD_HC_Hirose_DM3D-SF,C719027
+1uH Inductor,L1,Inductor_SMD:L_0402_1005Metric,C531288
+1k Resistor,"R1,R4,R5,R15,R16,R17,R18",Resistor_SMD:R_0402_1005Metric,C11702
+10k Resistor,"R2,R3,R9,R10,R11,R12,R13,R14,R19,R20,R21,R22",Resistor_SMD:R_0402_1005Metric,C25744
+2R Resistor,R6,Resistor_SMD:R_0402_1005Metric,C2906922
+1R Resistor,R7,Resistor_SMD:R_0402_1005Metric,C137904
+20R Resistor,R8,Resistor_SMD:R_0402_1005Metric,C310214
+"1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223 (AMS1117-3.3)",U1,Package_TO_SOT_SMD:SOT-223-3_TabPin2,C347222
+"Ai-Thinker Ra-02 410-525 MHz LoRa Module, SPI interface, U.FL antenna connector",U6,RA-02_LORA:MODULE_RA-02_LORA,C90039
+"3-in-1 sensor, humidity, pressure, temperature, I2C and SPI interface, 1.71-3.6V, LGA-8 (BME280)",U8,Package_LGA:Bosch_LGA-8_2.5x2.5mm_P0.65mm_ClockwisePinNumbering,C92489
+IP5306,U5,IP5306:SOIC9P127_490X600X170L84X42T330X241N,C181692
+ESP32-S3-WROOM-1-N16R8 Module,X1,ESP32-S3-WROOM-1-N16R8:ESP32S3WROOM1N8R2,C2913202
+WE-XTAL-85SMX Crystal Oscillator,Y1,WE-XTAL_85SMX:WE-XTAL_85SMX,N/A

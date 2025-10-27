@@ -1,0 +1,23 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,8.0.7*%
+%TF.CreationDate,2025-02-15T14:18:59+03:00*%
+%TF.ProjectId,IoT Edge Device V1,496f5420-4564-4676-9520-446576696365,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Profile,NP*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 8.0.7) date 2025-02-15 14:18:59*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,Profile*%
+%ADD10C,0.100000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+X95297500Y-46194000D02*
+X190217500Y-46194000D01*
+X190217500Y-139700000D01*
+X95297500Y-139700000D01*
+X95297500Y-46194000D01*
+M02*
