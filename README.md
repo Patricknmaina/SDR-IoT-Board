@@ -47,16 +47,6 @@ Use cases include ground-station telemetry collection, environmental sensing, ed
 - 3.3 V rail via AMS1117‑3.3 LDO
 - 32.768 kHz RTC crystal for ESP32‑S3 (ESR ≤ 70 kΩ per note)
 
-<p align="center">
-  <img alt="ESP32-S3 Module" src="Images/ESP32-S3_module.png" />
-  <img alt="LoRa Module" src="Images/lora_module.png" />
-  <img alt="microSD Module" src="Images/SD-Card_module.png" />
-  <br/>
-  <img alt="IP5306 Module" src="Images/IP5306_module.png" />
-  <img alt="BME280 Module" src="Images/BME280_module.png" />
-  <img alt="DHT11 Module" src="Images/DHT11_module.png" />
-</p>
-
 ## Hardware Architecture
 
 - Microcontroller: ESP32‑S3‑WROOM‑1‑N16R8 (`IoT Edge Device v1.0/IoT Edge Device V1.kicad_sch`)
@@ -131,18 +121,6 @@ All files required for fab and assembly are provided:
 
 3) Pick & Place (Centroid)
 - Path: `IoT Edge Device v1.0/Fab Files/IoT CPL.csv` (Top placements)
-
-## Bring‑Up Checklist
-
-- Visual inspection: orientation, polarity, solder joints, shorts
-- Power rails: verify 5 V and 3.3 V at no‑load, then under load
-- USB enumeration: connect via Micro‑USB; confirm ESP32‑S3 CDC/DFU visibility
-- Flash a minimal firmware (blinky/logging) to validate USB/boot path
-- I2C scan: confirm BME280 responds at 0x76
-- SD card: initialize via SPI; create/read a test file
-- LoRa SPI: verify register read/write; simple TX/RX smoke test
-- Status LEDs: battery/charge indicators via IP5306; power/relay LEDs
-- Relay header: toggle GPIO6 and confirm external relay module control
 
 ## Firmware Getting Started
 
